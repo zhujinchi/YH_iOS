@@ -1,0 +1,72 @@
+PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - IQKeyboardManager (6.1.1)
+  - MJExtension (3.0.15.1)
+  - MJRefresh (3.1.15.3)
+  - RongCloudIM/CallKit (2.8.32):
+    - RongCloudIM/CallLib
+    - RongCloudIM/IMKit
+  - RongCloudIM/CallLib (2.8.32):
+    - RongCloudIM/IMLib
+  - RongCloudIM/IMKit (2.8.32):
+    - RongCloudIM/IMLib
+  - RongCloudIM/IMLib (2.8.32)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - TYCyclePagerView (1.1.0)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.6.3)
+  - IQKeyboardManager
+  - MJExtension
+  - MJRefresh (~> 3.1.10)
+  - RongCloudIM/CallKit (~> 2.8.3)
+  - RongCloudIM/CallLib (~> 2.8.3)
+  - RongCloudIM/IMKit (~> 2.8.3)
+  - RongCloudIM/IMLib (~> 2.8.3)
+  - SDWebImage (~> 3.8)
+  - TYCyclePagerView
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - IQKeyboardManager
+    - MJExtension
+    - MJRefresh
+    - RongCloudIM
+    - SDWebImage
+    - TYCyclePagerView
+
+SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  IQKeyboardManager: 79c57795f5c2408d259d37b9da2ed07efcbb5225
+  MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
+  MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
+  RongCloudIM: 48bfc2fcb8d7cae8ce1e19cb5fb26d6d90616375
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  TYCyclePagerView: b70858c9b5d0e80e1e3129ff5ceb027eb0f76d44
+
+PODFILE CHECKSUM: 107ad92343a6e1a2dfb16bf4efb619b0f9392465
+
+COCOAPODS: 1.5.0
